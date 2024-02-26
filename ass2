@@ -1,0 +1,18 @@
+(a)desc instructorf33;
+	desc coursef33;
+	desc prereqf33;
+	desc departmentf33;
+	desc teachesf33;
+(b)select * from instructorf33;
+	select * from coursef33;
+  select * from prereqf33;
+  select * from departmentf33;
+  select * from teachesf33;
+(c)select NAME,DEPT_NAME from instructorf33;
+(d)select NAME,SALARY from instructorf33 where DEPT_NAME='Comp.Sci.';
+(e)select * from instructorf33 where DEPT_NAME='Physics' and Salary<90000;
+(f)select Name from instructorf33 where DEPT_NAME<>'Comp.Sci.';
+(g)select distinct dept_name from instructorf33;
+(h)select course_id from teachesf33 where semester='Spring';
+(i)select title from coursef33 where dept_name='Comp.Sci.' and credits<>3;
+(j)select * from instructorf33 order by dept_name desc;
